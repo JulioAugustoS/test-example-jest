@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import Counter from '../src/Counter';
 
-describe('Testing App Component', () => {
+describe('Testing Counter Component', () => {
   it('should render correctly', () => {
     const wrapper = shallow(
       <Counter count={5} />

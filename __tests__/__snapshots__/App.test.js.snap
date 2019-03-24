@@ -16,12 +16,23 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "class",
     "props": Object {
-      "children": <h1>
-        Hello World!
-      </h1>,
-      "className": "App",
+      "children": <div
+        className="App"
+      >
+        <h1>
+          Hello World!
+        </h1>
+        <Connect(Todos) />
+      </div>,
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      },
     },
     "ref": null,
     "rendered": Object {
@@ -29,24 +40,62 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "Hello World!",
+        "children": Array [
+          <h1>
+            Hello World!
+          </h1>,
+          <Connect(Todos) />,
+        ],
+        "className": "App",
       },
       "ref": null,
-      "rendered": "Hello World!",
-      "type": "h1",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Hello World!",
+          },
+          "ref": null,
+          "rendered": "Hello World!",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
     },
-    "type": "div",
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "class",
       "props": Object {
-        "children": <h1>
-          Hello World!
-        </h1>,
-        "className": "App",
+        "children": <div
+          className="App"
+        >
+          <h1>
+            Hello World!
+          </h1>
+          <Connect(Todos) />
+        </div>,
+        "store": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
       },
       "ref": null,
       "rendered": Object {
@@ -54,13 +103,40 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Hello World!",
+          "children": Array [
+            <h1>
+              Hello World!
+            </h1>,
+            <Connect(Todos) />,
+          ],
+          "className": "App",
         },
         "ref": null,
-        "rendered": "Hello World!",
-        "type": "h1",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Hello World!",
+            },
+            "ref": null,
+            "rendered": "Hello World!",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
       },
-      "type": "div",
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
