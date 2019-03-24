@@ -76,7 +76,8 @@
     ],
     "resolver": "jest-pnp-resolver",
     "setupFiles": [
-      "react-app-polyfill/jsdom"
+      "react-app-polyfill/jsdom",
+      "<rootDir>/__tests__/setup.js"
     ],
     "testMatch": [
       "<rootDir>/__tests__/**/?(*.)(spec|test).js?(x)"
